@@ -17,6 +17,8 @@ import movieapp from "./assets/work_logo/movieapp.png";
 import portfolio from "./assets/work_logo/portfolio.png";
 import game from "./assets/work_logo/game.png";
 import currency from "./assets/work_logo/currency.png";
+import proposal from "./assets/work_logo/proposal.png";
+import coffee from "./assets/work_logo/coffee.png";
 
 export const SkillsInfo = [
   {
@@ -106,5 +108,27 @@ export const projects = [
     image: currency,
     tags: ["HTML", "CSS", "JavaScript", "API"],
     github: "https://github.com/sandhya-dev-create/Currency-Converter.git",
+    webapp : "https://currency-converter-phi-black.vercel.app/"
   },
+  {
+    id: 3,
+    title: "Proposal Website",
+    description:
+      "A creative React-based proposal website designed to tell a romantic story through animated sections, a timeline, and a final proposal interaction. Built with React, CSS animations, and modern UI styling.",
+    image: proposal,
+    tags: ["React Js", "CSS"],
+    github: "https://github.com/sandhya-dev-create/proposal-website",
+    webapp : "https://proposal-website-pearl-nu.vercel.app/"
+  },
+  {
+  id : 4, 
+   title: "Coffee Shop",
+    description:
+      "A creative React-based proposal website designed to tell a romantic story through animated sections, a timeline, and a final proposal interaction. Built with React, CSS animations, and modern UI styling.",
+    image:coffee,
+    tags: ["React Js", "CSS"],
+    github : "https://github.com/sandhya-dev-create/coffee-shop",
+    webapp : ""
+    
+  }
 ];
